@@ -26,5 +26,6 @@ cp $nvidia_gpu_exporter_bin release/
 cp node_exporter.service release/
 cp nvidia_gpu_exporter.service release/
 cp setup.sh release/
+cp server_info.prom release/
 
 makeself release exporters_installer.run "Node Exporter and Nvidia GPU Exporter installer" ./setup.sh
